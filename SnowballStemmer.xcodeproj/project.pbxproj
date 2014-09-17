@@ -7,17 +7,190 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A0DF6CA19C9978C003881A3 /* libstemmer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6C819C9978C003881A3 /* libstemmer.c */; };
+		4A0DF6CB19C9978C003881A3 /* modules.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF6C919C9978C003881A3 /* modules.h */; };
+		4A0DF6EE19C997BB003881A3 /* stem_ISO_8859_1_danish.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6CC19C997BB003881A3 /* stem_ISO_8859_1_danish.c */; };
+		4A0DF6EF19C997BB003881A3 /* stem_ISO_8859_1_dutch.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6CD19C997BB003881A3 /* stem_ISO_8859_1_dutch.c */; };
+		4A0DF6F019C997BB003881A3 /* stem_ISO_8859_1_english.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6CE19C997BB003881A3 /* stem_ISO_8859_1_english.c */; };
+		4A0DF6F119C997BB003881A3 /* stem_ISO_8859_1_finnish.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6CF19C997BB003881A3 /* stem_ISO_8859_1_finnish.c */; };
+		4A0DF6F219C997BB003881A3 /* stem_ISO_8859_1_french.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6D019C997BB003881A3 /* stem_ISO_8859_1_french.c */; };
+		4A0DF6F319C997BB003881A3 /* stem_ISO_8859_1_german.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6D119C997BB003881A3 /* stem_ISO_8859_1_german.c */; };
+		4A0DF6F419C997BB003881A3 /* stem_ISO_8859_1_italian.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6D219C997BB003881A3 /* stem_ISO_8859_1_italian.c */; };
+		4A0DF6F519C997BB003881A3 /* stem_ISO_8859_1_norwegian.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6D319C997BB003881A3 /* stem_ISO_8859_1_norwegian.c */; };
+		4A0DF6F619C997BB003881A3 /* stem_ISO_8859_1_porter.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6D419C997BB003881A3 /* stem_ISO_8859_1_porter.c */; };
+		4A0DF6F719C997BB003881A3 /* stem_ISO_8859_1_portuguese.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6D519C997BB003881A3 /* stem_ISO_8859_1_portuguese.c */; };
+		4A0DF6F819C997BB003881A3 /* stem_ISO_8859_1_spanish.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6D619C997BB003881A3 /* stem_ISO_8859_1_spanish.c */; };
+		4A0DF6F919C997BB003881A3 /* stem_ISO_8859_1_swedish.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6D719C997BB003881A3 /* stem_ISO_8859_1_swedish.c */; };
+		4A0DF6FA19C997BB003881A3 /* stem_ISO_8859_2_hungarian.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6D819C997BB003881A3 /* stem_ISO_8859_2_hungarian.c */; };
+		4A0DF6FB19C997BB003881A3 /* stem_ISO_8859_2_romanian.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6D919C997BB003881A3 /* stem_ISO_8859_2_romanian.c */; };
+		4A0DF6FC19C997BB003881A3 /* stem_KOI8_R_russian.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6DA19C997BB003881A3 /* stem_KOI8_R_russian.c */; };
+		4A0DF6FD19C997BB003881A3 /* stem_UTF_8_danish.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6DB19C997BB003881A3 /* stem_UTF_8_danish.c */; };
+		4A0DF6FE19C997BB003881A3 /* stem_UTF_8_dutch.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6DC19C997BB003881A3 /* stem_UTF_8_dutch.c */; };
+		4A0DF6FF19C997BB003881A3 /* stem_UTF_8_english.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6DD19C997BB003881A3 /* stem_UTF_8_english.c */; };
+		4A0DF70019C997BB003881A3 /* stem_UTF_8_finnish.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6DE19C997BB003881A3 /* stem_UTF_8_finnish.c */; };
+		4A0DF70119C997BB003881A3 /* stem_UTF_8_french.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6DF19C997BB003881A3 /* stem_UTF_8_french.c */; };
+		4A0DF70219C997BB003881A3 /* stem_UTF_8_german.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6E019C997BB003881A3 /* stem_UTF_8_german.c */; };
+		4A0DF70319C997BB003881A3 /* stem_UTF_8_german2.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6E119C997BB003881A3 /* stem_UTF_8_german2.c */; };
+		4A0DF70419C997BB003881A3 /* stem_UTF_8_hungarian.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6E219C997BB003881A3 /* stem_UTF_8_hungarian.c */; };
+		4A0DF70519C997BB003881A3 /* stem_UTF_8_italian.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6E319C997BB003881A3 /* stem_UTF_8_italian.c */; };
+		4A0DF70619C997BB003881A3 /* stem_UTF_8_kraaij_pohlmann.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6E419C997BB003881A3 /* stem_UTF_8_kraaij_pohlmann.c */; };
+		4A0DF70719C997BB003881A3 /* stem_UTF_8_lovins.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6E519C997BB003881A3 /* stem_UTF_8_lovins.c */; };
+		4A0DF70819C997BB003881A3 /* stem_UTF_8_norwegian.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6E619C997BB003881A3 /* stem_UTF_8_norwegian.c */; };
+		4A0DF70919C997BB003881A3 /* stem_UTF_8_porter.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6E719C997BB003881A3 /* stem_UTF_8_porter.c */; };
+		4A0DF70A19C997BB003881A3 /* stem_UTF_8_portuguese.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6E819C997BB003881A3 /* stem_UTF_8_portuguese.c */; };
+		4A0DF70B19C997BB003881A3 /* stem_UTF_8_romanian.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6E919C997BB003881A3 /* stem_UTF_8_romanian.c */; };
+		4A0DF70C19C997BB003881A3 /* stem_UTF_8_russian.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6EA19C997BB003881A3 /* stem_UTF_8_russian.c */; };
+		4A0DF70D19C997BB003881A3 /* stem_UTF_8_spanish.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6EB19C997BB003881A3 /* stem_UTF_8_spanish.c */; };
+		4A0DF70E19C997BB003881A3 /* stem_UTF_8_swedish.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6EC19C997BB003881A3 /* stem_UTF_8_swedish.c */; };
+		4A0DF70F19C997BB003881A3 /* stem_UTF_8_turkish.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF6ED19C997BB003881A3 /* stem_UTF_8_turkish.c */; };
+		4A0DF73219C997C7003881A3 /* stem_ISO_8859_1_danish.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71019C997C7003881A3 /* stem_ISO_8859_1_danish.h */; };
+		4A0DF73319C997C7003881A3 /* stem_ISO_8859_1_dutch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71119C997C7003881A3 /* stem_ISO_8859_1_dutch.h */; };
+		4A0DF73419C997C7003881A3 /* stem_ISO_8859_1_english.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71219C997C7003881A3 /* stem_ISO_8859_1_english.h */; };
+		4A0DF73519C997C7003881A3 /* stem_ISO_8859_1_finnish.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71319C997C7003881A3 /* stem_ISO_8859_1_finnish.h */; };
+		4A0DF73619C997C7003881A3 /* stem_ISO_8859_1_french.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71419C997C7003881A3 /* stem_ISO_8859_1_french.h */; };
+		4A0DF73719C997C7003881A3 /* stem_ISO_8859_1_german.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71519C997C7003881A3 /* stem_ISO_8859_1_german.h */; };
+		4A0DF73819C997C7003881A3 /* stem_ISO_8859_1_italian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71619C997C7003881A3 /* stem_ISO_8859_1_italian.h */; };
+		4A0DF73919C997C7003881A3 /* stem_ISO_8859_1_norwegian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71719C997C7003881A3 /* stem_ISO_8859_1_norwegian.h */; };
+		4A0DF73A19C997C7003881A3 /* stem_ISO_8859_1_porter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71819C997C7003881A3 /* stem_ISO_8859_1_porter.h */; };
+		4A0DF73B19C997C7003881A3 /* stem_ISO_8859_1_portuguese.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71919C997C7003881A3 /* stem_ISO_8859_1_portuguese.h */; };
+		4A0DF73C19C997C7003881A3 /* stem_ISO_8859_1_spanish.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71A19C997C7003881A3 /* stem_ISO_8859_1_spanish.h */; };
+		4A0DF73D19C997C7003881A3 /* stem_ISO_8859_1_swedish.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71B19C997C7003881A3 /* stem_ISO_8859_1_swedish.h */; };
+		4A0DF73E19C997C7003881A3 /* stem_ISO_8859_2_hungarian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71C19C997C7003881A3 /* stem_ISO_8859_2_hungarian.h */; };
+		4A0DF73F19C997C7003881A3 /* stem_ISO_8859_2_romanian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71D19C997C7003881A3 /* stem_ISO_8859_2_romanian.h */; };
+		4A0DF74019C997C7003881A3 /* stem_KOI8_R_russian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71E19C997C7003881A3 /* stem_KOI8_R_russian.h */; };
+		4A0DF74119C997C7003881A3 /* stem_UTF_8_danish.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF71F19C997C7003881A3 /* stem_UTF_8_danish.h */; };
+		4A0DF74219C997C7003881A3 /* stem_UTF_8_dutch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72019C997C7003881A3 /* stem_UTF_8_dutch.h */; };
+		4A0DF74319C997C7003881A3 /* stem_UTF_8_english.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72119C997C7003881A3 /* stem_UTF_8_english.h */; };
+		4A0DF74419C997C7003881A3 /* stem_UTF_8_finnish.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72219C997C7003881A3 /* stem_UTF_8_finnish.h */; };
+		4A0DF74519C997C7003881A3 /* stem_UTF_8_french.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72319C997C7003881A3 /* stem_UTF_8_french.h */; };
+		4A0DF74619C997C7003881A3 /* stem_UTF_8_german.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72419C997C7003881A3 /* stem_UTF_8_german.h */; };
+		4A0DF74719C997C7003881A3 /* stem_UTF_8_german2.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72519C997C7003881A3 /* stem_UTF_8_german2.h */; };
+		4A0DF74819C997C7003881A3 /* stem_UTF_8_hungarian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72619C997C7003881A3 /* stem_UTF_8_hungarian.h */; };
+		4A0DF74919C997C7003881A3 /* stem_UTF_8_italian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72719C997C7003881A3 /* stem_UTF_8_italian.h */; };
+		4A0DF74A19C997C7003881A3 /* stem_UTF_8_kraaij_pohlmann.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72819C997C7003881A3 /* stem_UTF_8_kraaij_pohlmann.h */; };
+		4A0DF74B19C997C7003881A3 /* stem_UTF_8_lovins.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72919C997C7003881A3 /* stem_UTF_8_lovins.h */; };
+		4A0DF74C19C997C7003881A3 /* stem_UTF_8_norwegian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72A19C997C7003881A3 /* stem_UTF_8_norwegian.h */; };
+		4A0DF74D19C997C7003881A3 /* stem_UTF_8_porter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72B19C997C7003881A3 /* stem_UTF_8_porter.h */; };
+		4A0DF74E19C997C7003881A3 /* stem_UTF_8_portuguese.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72C19C997C7003881A3 /* stem_UTF_8_portuguese.h */; };
+		4A0DF74F19C997C7003881A3 /* stem_UTF_8_romanian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72D19C997C7003881A3 /* stem_UTF_8_romanian.h */; };
+		4A0DF75019C997C7003881A3 /* stem_UTF_8_russian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72E19C997C7003881A3 /* stem_UTF_8_russian.h */; };
+		4A0DF75119C997C7003881A3 /* stem_UTF_8_spanish.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF72F19C997C7003881A3 /* stem_UTF_8_spanish.h */; };
+		4A0DF75219C997C7003881A3 /* stem_UTF_8_swedish.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF73019C997C7003881A3 /* stem_UTF_8_swedish.h */; };
+		4A0DF75319C997C7003881A3 /* stem_UTF_8_turkish.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0DF73119C997C7003881A3 /* stem_UTF_8_turkish.h */; };
+		4A0DF75519C99812003881A3 /* utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF75419C99812003881A3 /* utilities.c */; };
+		4A0DF75819C9987A003881A3 /* SnowballStemmerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF75719C9987A003881A3 /* SnowballStemmerTests.swift */; };
 		4A99A6DF19C98FEB00FC22D8 /* SnowballStemmer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A99A6DE19C98FEB00FC22D8 /* SnowballStemmer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A99A6E919C98FEB00FC22D8 /* SnowballStemmerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A99A6E819C98FEB00FC22D8 /* SnowballStemmerTests.m */; };
+		4A99A6F419C9901100FC22D8 /* NSString+StemWord.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A99A6F219C9901100FC22D8 /* NSString+StemWord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A99A6F519C9901100FC22D8 /* NSString+StemWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A99A6F319C9901100FC22D8 /* NSString+StemWord.m */; };
+		4A99A6F819C9905200FC22D8 /* libstemmer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A99A6F719C9905200FC22D8 /* libstemmer.h */; };
+		4A99A6FF19C9909F00FC22D8 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A99A6FD19C9909F00FC22D8 /* api.c */; };
+		4A99A70019C9909F00FC22D8 /* api.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A99A6FE19C9909F00FC22D8 /* api.h */; };
+		4A99A70319C990A900FC22D8 /* header.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A99A70119C990A900FC22D8 /* header.h */; };
+		4A99A78E19C9911500FC22D8 /* SnowballStemmer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A99A6D919C98FEB00FC22D8 /* SnowballStemmer.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4A0DF6C319C996E6003881A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A99A6D019C98FEB00FC22D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0DF6BF19C9964B003881A3;
+			remoteInfo = snowball;
+		};
+		4A99A78F19C9911E00FC22D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A99A6D019C98FEB00FC22D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A99A6D819C98FEB00FC22D8;
+			remoteInfo = SnowballStemmer;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4A0DF6C819C9978C003881A3 /* libstemmer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = libstemmer.c; path = snowball/libstemmer/libstemmer.c; sourceTree = "<group>"; };
+		4A0DF6C919C9978C003881A3 /* modules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = modules.h; path = snowball/libstemmer/modules.h; sourceTree = "<group>"; };
+		4A0DF6CC19C997BB003881A3 /* stem_ISO_8859_1_danish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_ISO_8859_1_danish.c; path = snowball/src_c/stem_ISO_8859_1_danish.c; sourceTree = "<group>"; };
+		4A0DF6CD19C997BB003881A3 /* stem_ISO_8859_1_dutch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_ISO_8859_1_dutch.c; path = snowball/src_c/stem_ISO_8859_1_dutch.c; sourceTree = "<group>"; };
+		4A0DF6CE19C997BB003881A3 /* stem_ISO_8859_1_english.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_ISO_8859_1_english.c; path = snowball/src_c/stem_ISO_8859_1_english.c; sourceTree = "<group>"; };
+		4A0DF6CF19C997BB003881A3 /* stem_ISO_8859_1_finnish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_ISO_8859_1_finnish.c; path = snowball/src_c/stem_ISO_8859_1_finnish.c; sourceTree = "<group>"; };
+		4A0DF6D019C997BB003881A3 /* stem_ISO_8859_1_french.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_ISO_8859_1_french.c; path = snowball/src_c/stem_ISO_8859_1_french.c; sourceTree = "<group>"; };
+		4A0DF6D119C997BB003881A3 /* stem_ISO_8859_1_german.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_ISO_8859_1_german.c; path = snowball/src_c/stem_ISO_8859_1_german.c; sourceTree = "<group>"; };
+		4A0DF6D219C997BB003881A3 /* stem_ISO_8859_1_italian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_ISO_8859_1_italian.c; path = snowball/src_c/stem_ISO_8859_1_italian.c; sourceTree = "<group>"; };
+		4A0DF6D319C997BB003881A3 /* stem_ISO_8859_1_norwegian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_ISO_8859_1_norwegian.c; path = snowball/src_c/stem_ISO_8859_1_norwegian.c; sourceTree = "<group>"; };
+		4A0DF6D419C997BB003881A3 /* stem_ISO_8859_1_porter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_ISO_8859_1_porter.c; path = snowball/src_c/stem_ISO_8859_1_porter.c; sourceTree = "<group>"; };
+		4A0DF6D519C997BB003881A3 /* stem_ISO_8859_1_portuguese.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_ISO_8859_1_portuguese.c; path = snowball/src_c/stem_ISO_8859_1_portuguese.c; sourceTree = "<group>"; };
+		4A0DF6D619C997BB003881A3 /* stem_ISO_8859_1_spanish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_ISO_8859_1_spanish.c; path = snowball/src_c/stem_ISO_8859_1_spanish.c; sourceTree = "<group>"; };
+		4A0DF6D719C997BB003881A3 /* stem_ISO_8859_1_swedish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_ISO_8859_1_swedish.c; path = snowball/src_c/stem_ISO_8859_1_swedish.c; sourceTree = "<group>"; };
+		4A0DF6D819C997BB003881A3 /* stem_ISO_8859_2_hungarian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_ISO_8859_2_hungarian.c; path = snowball/src_c/stem_ISO_8859_2_hungarian.c; sourceTree = "<group>"; };
+		4A0DF6D919C997BB003881A3 /* stem_ISO_8859_2_romanian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_ISO_8859_2_romanian.c; path = snowball/src_c/stem_ISO_8859_2_romanian.c; sourceTree = "<group>"; };
+		4A0DF6DA19C997BB003881A3 /* stem_KOI8_R_russian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_KOI8_R_russian.c; path = snowball/src_c/stem_KOI8_R_russian.c; sourceTree = "<group>"; };
+		4A0DF6DB19C997BB003881A3 /* stem_UTF_8_danish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_danish.c; path = snowball/src_c/stem_UTF_8_danish.c; sourceTree = "<group>"; };
+		4A0DF6DC19C997BB003881A3 /* stem_UTF_8_dutch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_dutch.c; path = snowball/src_c/stem_UTF_8_dutch.c; sourceTree = "<group>"; };
+		4A0DF6DD19C997BB003881A3 /* stem_UTF_8_english.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_english.c; path = snowball/src_c/stem_UTF_8_english.c; sourceTree = "<group>"; };
+		4A0DF6DE19C997BB003881A3 /* stem_UTF_8_finnish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_finnish.c; path = snowball/src_c/stem_UTF_8_finnish.c; sourceTree = "<group>"; };
+		4A0DF6DF19C997BB003881A3 /* stem_UTF_8_french.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_french.c; path = snowball/src_c/stem_UTF_8_french.c; sourceTree = "<group>"; };
+		4A0DF6E019C997BB003881A3 /* stem_UTF_8_german.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_german.c; path = snowball/src_c/stem_UTF_8_german.c; sourceTree = "<group>"; };
+		4A0DF6E119C997BB003881A3 /* stem_UTF_8_german2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_german2.c; path = snowball/src_c/stem_UTF_8_german2.c; sourceTree = "<group>"; };
+		4A0DF6E219C997BB003881A3 /* stem_UTF_8_hungarian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_hungarian.c; path = snowball/src_c/stem_UTF_8_hungarian.c; sourceTree = "<group>"; };
+		4A0DF6E319C997BB003881A3 /* stem_UTF_8_italian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_italian.c; path = snowball/src_c/stem_UTF_8_italian.c; sourceTree = "<group>"; };
+		4A0DF6E419C997BB003881A3 /* stem_UTF_8_kraaij_pohlmann.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_kraaij_pohlmann.c; path = snowball/src_c/stem_UTF_8_kraaij_pohlmann.c; sourceTree = "<group>"; };
+		4A0DF6E519C997BB003881A3 /* stem_UTF_8_lovins.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_lovins.c; path = snowball/src_c/stem_UTF_8_lovins.c; sourceTree = "<group>"; };
+		4A0DF6E619C997BB003881A3 /* stem_UTF_8_norwegian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_norwegian.c; path = snowball/src_c/stem_UTF_8_norwegian.c; sourceTree = "<group>"; };
+		4A0DF6E719C997BB003881A3 /* stem_UTF_8_porter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_porter.c; path = snowball/src_c/stem_UTF_8_porter.c; sourceTree = "<group>"; };
+		4A0DF6E819C997BB003881A3 /* stem_UTF_8_portuguese.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_portuguese.c; path = snowball/src_c/stem_UTF_8_portuguese.c; sourceTree = "<group>"; };
+		4A0DF6E919C997BB003881A3 /* stem_UTF_8_romanian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_romanian.c; path = snowball/src_c/stem_UTF_8_romanian.c; sourceTree = "<group>"; };
+		4A0DF6EA19C997BB003881A3 /* stem_UTF_8_russian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_russian.c; path = snowball/src_c/stem_UTF_8_russian.c; sourceTree = "<group>"; };
+		4A0DF6EB19C997BB003881A3 /* stem_UTF_8_spanish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_spanish.c; path = snowball/src_c/stem_UTF_8_spanish.c; sourceTree = "<group>"; };
+		4A0DF6EC19C997BB003881A3 /* stem_UTF_8_swedish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_swedish.c; path = snowball/src_c/stem_UTF_8_swedish.c; sourceTree = "<group>"; };
+		4A0DF6ED19C997BB003881A3 /* stem_UTF_8_turkish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stem_UTF_8_turkish.c; path = snowball/src_c/stem_UTF_8_turkish.c; sourceTree = "<group>"; };
+		4A0DF71019C997C7003881A3 /* stem_ISO_8859_1_danish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_ISO_8859_1_danish.h; path = snowball/src_c/stem_ISO_8859_1_danish.h; sourceTree = "<group>"; };
+		4A0DF71119C997C7003881A3 /* stem_ISO_8859_1_dutch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_ISO_8859_1_dutch.h; path = snowball/src_c/stem_ISO_8859_1_dutch.h; sourceTree = "<group>"; };
+		4A0DF71219C997C7003881A3 /* stem_ISO_8859_1_english.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_ISO_8859_1_english.h; path = snowball/src_c/stem_ISO_8859_1_english.h; sourceTree = "<group>"; };
+		4A0DF71319C997C7003881A3 /* stem_ISO_8859_1_finnish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_ISO_8859_1_finnish.h; path = snowball/src_c/stem_ISO_8859_1_finnish.h; sourceTree = "<group>"; };
+		4A0DF71419C997C7003881A3 /* stem_ISO_8859_1_french.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_ISO_8859_1_french.h; path = snowball/src_c/stem_ISO_8859_1_french.h; sourceTree = "<group>"; };
+		4A0DF71519C997C7003881A3 /* stem_ISO_8859_1_german.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_ISO_8859_1_german.h; path = snowball/src_c/stem_ISO_8859_1_german.h; sourceTree = "<group>"; };
+		4A0DF71619C997C7003881A3 /* stem_ISO_8859_1_italian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_ISO_8859_1_italian.h; path = snowball/src_c/stem_ISO_8859_1_italian.h; sourceTree = "<group>"; };
+		4A0DF71719C997C7003881A3 /* stem_ISO_8859_1_norwegian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_ISO_8859_1_norwegian.h; path = snowball/src_c/stem_ISO_8859_1_norwegian.h; sourceTree = "<group>"; };
+		4A0DF71819C997C7003881A3 /* stem_ISO_8859_1_porter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_ISO_8859_1_porter.h; path = snowball/src_c/stem_ISO_8859_1_porter.h; sourceTree = "<group>"; };
+		4A0DF71919C997C7003881A3 /* stem_ISO_8859_1_portuguese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_ISO_8859_1_portuguese.h; path = snowball/src_c/stem_ISO_8859_1_portuguese.h; sourceTree = "<group>"; };
+		4A0DF71A19C997C7003881A3 /* stem_ISO_8859_1_spanish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_ISO_8859_1_spanish.h; path = snowball/src_c/stem_ISO_8859_1_spanish.h; sourceTree = "<group>"; };
+		4A0DF71B19C997C7003881A3 /* stem_ISO_8859_1_swedish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_ISO_8859_1_swedish.h; path = snowball/src_c/stem_ISO_8859_1_swedish.h; sourceTree = "<group>"; };
+		4A0DF71C19C997C7003881A3 /* stem_ISO_8859_2_hungarian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_ISO_8859_2_hungarian.h; path = snowball/src_c/stem_ISO_8859_2_hungarian.h; sourceTree = "<group>"; };
+		4A0DF71D19C997C7003881A3 /* stem_ISO_8859_2_romanian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_ISO_8859_2_romanian.h; path = snowball/src_c/stem_ISO_8859_2_romanian.h; sourceTree = "<group>"; };
+		4A0DF71E19C997C7003881A3 /* stem_KOI8_R_russian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_KOI8_R_russian.h; path = snowball/src_c/stem_KOI8_R_russian.h; sourceTree = "<group>"; };
+		4A0DF71F19C997C7003881A3 /* stem_UTF_8_danish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_danish.h; path = snowball/src_c/stem_UTF_8_danish.h; sourceTree = "<group>"; };
+		4A0DF72019C997C7003881A3 /* stem_UTF_8_dutch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_dutch.h; path = snowball/src_c/stem_UTF_8_dutch.h; sourceTree = "<group>"; };
+		4A0DF72119C997C7003881A3 /* stem_UTF_8_english.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_english.h; path = snowball/src_c/stem_UTF_8_english.h; sourceTree = "<group>"; };
+		4A0DF72219C997C7003881A3 /* stem_UTF_8_finnish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_finnish.h; path = snowball/src_c/stem_UTF_8_finnish.h; sourceTree = "<group>"; };
+		4A0DF72319C997C7003881A3 /* stem_UTF_8_french.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_french.h; path = snowball/src_c/stem_UTF_8_french.h; sourceTree = "<group>"; };
+		4A0DF72419C997C7003881A3 /* stem_UTF_8_german.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_german.h; path = snowball/src_c/stem_UTF_8_german.h; sourceTree = "<group>"; };
+		4A0DF72519C997C7003881A3 /* stem_UTF_8_german2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_german2.h; path = snowball/src_c/stem_UTF_8_german2.h; sourceTree = "<group>"; };
+		4A0DF72619C997C7003881A3 /* stem_UTF_8_hungarian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_hungarian.h; path = snowball/src_c/stem_UTF_8_hungarian.h; sourceTree = "<group>"; };
+		4A0DF72719C997C7003881A3 /* stem_UTF_8_italian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_italian.h; path = snowball/src_c/stem_UTF_8_italian.h; sourceTree = "<group>"; };
+		4A0DF72819C997C7003881A3 /* stem_UTF_8_kraaij_pohlmann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_kraaij_pohlmann.h; path = snowball/src_c/stem_UTF_8_kraaij_pohlmann.h; sourceTree = "<group>"; };
+		4A0DF72919C997C7003881A3 /* stem_UTF_8_lovins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_lovins.h; path = snowball/src_c/stem_UTF_8_lovins.h; sourceTree = "<group>"; };
+		4A0DF72A19C997C7003881A3 /* stem_UTF_8_norwegian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_norwegian.h; path = snowball/src_c/stem_UTF_8_norwegian.h; sourceTree = "<group>"; };
+		4A0DF72B19C997C7003881A3 /* stem_UTF_8_porter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_porter.h; path = snowball/src_c/stem_UTF_8_porter.h; sourceTree = "<group>"; };
+		4A0DF72C19C997C7003881A3 /* stem_UTF_8_portuguese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_portuguese.h; path = snowball/src_c/stem_UTF_8_portuguese.h; sourceTree = "<group>"; };
+		4A0DF72D19C997C7003881A3 /* stem_UTF_8_romanian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_romanian.h; path = snowball/src_c/stem_UTF_8_romanian.h; sourceTree = "<group>"; };
+		4A0DF72E19C997C7003881A3 /* stem_UTF_8_russian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_russian.h; path = snowball/src_c/stem_UTF_8_russian.h; sourceTree = "<group>"; };
+		4A0DF72F19C997C7003881A3 /* stem_UTF_8_spanish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_spanish.h; path = snowball/src_c/stem_UTF_8_spanish.h; sourceTree = "<group>"; };
+		4A0DF73019C997C7003881A3 /* stem_UTF_8_swedish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_swedish.h; path = snowball/src_c/stem_UTF_8_swedish.h; sourceTree = "<group>"; };
+		4A0DF73119C997C7003881A3 /* stem_UTF_8_turkish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stem_UTF_8_turkish.h; path = snowball/src_c/stem_UTF_8_turkish.h; sourceTree = "<group>"; };
+		4A0DF75419C99812003881A3 /* utilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = utilities.c; path = snowball/runtime/utilities.c; sourceTree = "<group>"; };
+		4A0DF75719C9987A003881A3 /* SnowballStemmerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowballStemmerTests.swift; sourceTree = "<group>"; };
+		4A0DF75919C998BE003881A3 /* SnowballStemmerTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SnowballStemmerTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		4A99A6D919C98FEB00FC22D8 /* SnowballStemmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnowballStemmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A99A6DD19C98FEB00FC22D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A99A6DE19C98FEB00FC22D8 /* SnowballStemmer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnowballStemmer.h; sourceTree = "<group>"; };
 		4A99A6E419C98FEB00FC22D8 /* SnowballStemmerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowballStemmerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A99A6E719C98FEB00FC22D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A99A6E819C98FEB00FC22D8 /* SnowballStemmerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowballStemmerTests.m; sourceTree = "<group>"; };
+		4A99A6F219C9901100FC22D8 /* NSString+StemWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StemWord.h"; sourceTree = "<group>"; };
+		4A99A6F319C9901100FC22D8 /* NSString+StemWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StemWord.m"; sourceTree = "<group>"; };
+		4A99A6F719C9905200FC22D8 /* libstemmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libstemmer.h; path = snowball/include/libstemmer.h; sourceTree = SOURCE_ROOT; };
+		4A99A6FD19C9909F00FC22D8 /* api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = api.c; path = snowball/runtime/api.c; sourceTree = "<group>"; };
+		4A99A6FE19C9909F00FC22D8 /* api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = api.h; path = snowball/runtime/api.h; sourceTree = "<group>"; };
+		4A99A70119C990A900FC22D8 /* header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = header.h; path = snowball/runtime/header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +205,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A99A78E19C9911500FC22D8 /* SnowballStemmer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +215,8 @@
 		4A99A6CF19C98FEB00FC22D8 = {
 			isa = PBXGroup;
 			children = (
-				4A99A6DB19C98FEB00FC22D8 /* SnowballStemmer */,
+				4A99A6DB19C98FEB00FC22D8 /* SnowballStemmer Framework */,
+				4A99A6F619C9904400FC22D8 /* snowball */,
 				4A99A6E519C98FEB00FC22D8 /* SnowballStemmerTests */,
 				4A99A6DA19C98FEB00FC22D8 /* Products */,
 			);
@@ -56,12 +231,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A99A6DB19C98FEB00FC22D8 /* SnowballStemmer */ = {
+		4A99A6DB19C98FEB00FC22D8 /* SnowballStemmer Framework */ = {
 			isa = PBXGroup;
 			children = (
 				4A99A6DE19C98FEB00FC22D8 /* SnowballStemmer.h */,
+				4A99A6F219C9901100FC22D8 /* NSString+StemWord.h */,
+				4A99A6F319C9901100FC22D8 /* NSString+StemWord.m */,
 				4A99A6DC19C98FEB00FC22D8 /* Supporting Files */,
 			);
+			name = "SnowballStemmer Framework";
 			path = SnowballStemmer;
 			sourceTree = "<group>";
 		};
@@ -76,8 +254,9 @@
 		4A99A6E519C98FEB00FC22D8 /* SnowballStemmerTests */ = {
 			isa = PBXGroup;
 			children = (
-				4A99A6E819C98FEB00FC22D8 /* SnowballStemmerTests.m */,
 				4A99A6E619C98FEB00FC22D8 /* Supporting Files */,
+				4A0DF75919C998BE003881A3 /* SnowballStemmerTests-Bridging-Header.h */,
+				4A0DF75719C9987A003881A3 /* SnowballStemmerTests.swift */,
 			);
 			path = SnowballStemmerTests;
 			sourceTree = "<group>";
@@ -90,6 +269,96 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4A99A6F619C9904400FC22D8 /* snowball */ = {
+			isa = PBXGroup;
+			children = (
+				4A99A6F719C9905200FC22D8 /* libstemmer.h */,
+				4A0DF6C819C9978C003881A3 /* libstemmer.c */,
+				4A0DF6C919C9978C003881A3 /* modules.h */,
+				4A99A6FE19C9909F00FC22D8 /* api.h */,
+				4A99A6FD19C9909F00FC22D8 /* api.c */,
+				4A99A70119C990A900FC22D8 /* header.h */,
+				4A0DF75419C99812003881A3 /* utilities.c */,
+				4A99A78D19C990F300FC22D8 /* Languages */,
+			);
+			name = snowball;
+			sourceTree = "<group>";
+		};
+		4A99A78D19C990F300FC22D8 /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				4A0DF6CC19C997BB003881A3 /* stem_ISO_8859_1_danish.c */,
+				4A0DF71019C997C7003881A3 /* stem_ISO_8859_1_danish.h */,
+				4A0DF6CD19C997BB003881A3 /* stem_ISO_8859_1_dutch.c */,
+				4A0DF71119C997C7003881A3 /* stem_ISO_8859_1_dutch.h */,
+				4A0DF6CE19C997BB003881A3 /* stem_ISO_8859_1_english.c */,
+				4A0DF71219C997C7003881A3 /* stem_ISO_8859_1_english.h */,
+				4A0DF6CF19C997BB003881A3 /* stem_ISO_8859_1_finnish.c */,
+				4A0DF71319C997C7003881A3 /* stem_ISO_8859_1_finnish.h */,
+				4A0DF6D019C997BB003881A3 /* stem_ISO_8859_1_french.c */,
+				4A0DF71419C997C7003881A3 /* stem_ISO_8859_1_french.h */,
+				4A0DF6D119C997BB003881A3 /* stem_ISO_8859_1_german.c */,
+				4A0DF71519C997C7003881A3 /* stem_ISO_8859_1_german.h */,
+				4A0DF6D219C997BB003881A3 /* stem_ISO_8859_1_italian.c */,
+				4A0DF71619C997C7003881A3 /* stem_ISO_8859_1_italian.h */,
+				4A0DF6D319C997BB003881A3 /* stem_ISO_8859_1_norwegian.c */,
+				4A0DF71719C997C7003881A3 /* stem_ISO_8859_1_norwegian.h */,
+				4A0DF6D419C997BB003881A3 /* stem_ISO_8859_1_porter.c */,
+				4A0DF71819C997C7003881A3 /* stem_ISO_8859_1_porter.h */,
+				4A0DF6D519C997BB003881A3 /* stem_ISO_8859_1_portuguese.c */,
+				4A0DF71919C997C7003881A3 /* stem_ISO_8859_1_portuguese.h */,
+				4A0DF6D619C997BB003881A3 /* stem_ISO_8859_1_spanish.c */,
+				4A0DF71A19C997C7003881A3 /* stem_ISO_8859_1_spanish.h */,
+				4A0DF6D719C997BB003881A3 /* stem_ISO_8859_1_swedish.c */,
+				4A0DF71B19C997C7003881A3 /* stem_ISO_8859_1_swedish.h */,
+				4A0DF6D819C997BB003881A3 /* stem_ISO_8859_2_hungarian.c */,
+				4A0DF71C19C997C7003881A3 /* stem_ISO_8859_2_hungarian.h */,
+				4A0DF6D919C997BB003881A3 /* stem_ISO_8859_2_romanian.c */,
+				4A0DF71D19C997C7003881A3 /* stem_ISO_8859_2_romanian.h */,
+				4A0DF6DA19C997BB003881A3 /* stem_KOI8_R_russian.c */,
+				4A0DF71E19C997C7003881A3 /* stem_KOI8_R_russian.h */,
+				4A0DF6DB19C997BB003881A3 /* stem_UTF_8_danish.c */,
+				4A0DF71F19C997C7003881A3 /* stem_UTF_8_danish.h */,
+				4A0DF6DC19C997BB003881A3 /* stem_UTF_8_dutch.c */,
+				4A0DF72019C997C7003881A3 /* stem_UTF_8_dutch.h */,
+				4A0DF6DD19C997BB003881A3 /* stem_UTF_8_english.c */,
+				4A0DF72119C997C7003881A3 /* stem_UTF_8_english.h */,
+				4A0DF6DE19C997BB003881A3 /* stem_UTF_8_finnish.c */,
+				4A0DF72219C997C7003881A3 /* stem_UTF_8_finnish.h */,
+				4A0DF6DF19C997BB003881A3 /* stem_UTF_8_french.c */,
+				4A0DF72319C997C7003881A3 /* stem_UTF_8_french.h */,
+				4A0DF6E019C997BB003881A3 /* stem_UTF_8_german.c */,
+				4A0DF72419C997C7003881A3 /* stem_UTF_8_german.h */,
+				4A0DF6E119C997BB003881A3 /* stem_UTF_8_german2.c */,
+				4A0DF72519C997C7003881A3 /* stem_UTF_8_german2.h */,
+				4A0DF6E219C997BB003881A3 /* stem_UTF_8_hungarian.c */,
+				4A0DF72619C997C7003881A3 /* stem_UTF_8_hungarian.h */,
+				4A0DF6E319C997BB003881A3 /* stem_UTF_8_italian.c */,
+				4A0DF72719C997C7003881A3 /* stem_UTF_8_italian.h */,
+				4A0DF6E419C997BB003881A3 /* stem_UTF_8_kraaij_pohlmann.c */,
+				4A0DF72819C997C7003881A3 /* stem_UTF_8_kraaij_pohlmann.h */,
+				4A0DF6E519C997BB003881A3 /* stem_UTF_8_lovins.c */,
+				4A0DF72919C997C7003881A3 /* stem_UTF_8_lovins.h */,
+				4A0DF6E619C997BB003881A3 /* stem_UTF_8_norwegian.c */,
+				4A0DF72A19C997C7003881A3 /* stem_UTF_8_norwegian.h */,
+				4A0DF6E719C997BB003881A3 /* stem_UTF_8_porter.c */,
+				4A0DF72B19C997C7003881A3 /* stem_UTF_8_porter.h */,
+				4A0DF6E819C997BB003881A3 /* stem_UTF_8_portuguese.c */,
+				4A0DF72C19C997C7003881A3 /* stem_UTF_8_portuguese.h */,
+				4A0DF6E919C997BB003881A3 /* stem_UTF_8_romanian.c */,
+				4A0DF72D19C997C7003881A3 /* stem_UTF_8_romanian.h */,
+				4A0DF6EA19C997BB003881A3 /* stem_UTF_8_russian.c */,
+				4A0DF72E19C997C7003881A3 /* stem_UTF_8_russian.h */,
+				4A0DF6EB19C997BB003881A3 /* stem_UTF_8_spanish.c */,
+				4A0DF72F19C997C7003881A3 /* stem_UTF_8_spanish.h */,
+				4A0DF6EC19C997BB003881A3 /* stem_UTF_8_swedish.c */,
+				4A0DF73019C997C7003881A3 /* stem_UTF_8_swedish.h */,
+				4A0DF6ED19C997BB003881A3 /* stem_UTF_8_turkish.c */,
+				4A0DF73119C997C7003881A3 /* stem_UTF_8_turkish.h */,
+			);
+			name = Languages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -97,11 +366,67 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0DF74A19C997C7003881A3 /* stem_UTF_8_kraaij_pohlmann.h in Headers */,
+				4A99A6F419C9901100FC22D8 /* NSString+StemWord.h in Headers */,
+				4A0DF74F19C997C7003881A3 /* stem_UTF_8_romanian.h in Headers */,
+				4A0DF74B19C997C7003881A3 /* stem_UTF_8_lovins.h in Headers */,
 				4A99A6DF19C98FEB00FC22D8 /* SnowballStemmer.h in Headers */,
+				4A0DF74619C997C7003881A3 /* stem_UTF_8_german.h in Headers */,
+				4A0DF73219C997C7003881A3 /* stem_ISO_8859_1_danish.h in Headers */,
+				4A0DF74219C997C7003881A3 /* stem_UTF_8_dutch.h in Headers */,
+				4A0DF74D19C997C7003881A3 /* stem_UTF_8_porter.h in Headers */,
+				4A0DF73E19C997C7003881A3 /* stem_ISO_8859_2_hungarian.h in Headers */,
+				4A0DF75319C997C7003881A3 /* stem_UTF_8_turkish.h in Headers */,
+				4A0DF73619C997C7003881A3 /* stem_ISO_8859_1_french.h in Headers */,
+				4A0DF73719C997C7003881A3 /* stem_ISO_8859_1_german.h in Headers */,
+				4A0DF74719C997C7003881A3 /* stem_UTF_8_german2.h in Headers */,
+				4A0DF73B19C997C7003881A3 /* stem_ISO_8859_1_portuguese.h in Headers */,
+				4A0DF74C19C997C7003881A3 /* stem_UTF_8_norwegian.h in Headers */,
+				4A0DF75019C997C7003881A3 /* stem_UTF_8_russian.h in Headers */,
+				4A0DF73D19C997C7003881A3 /* stem_ISO_8859_1_swedish.h in Headers */,
+				4A0DF74419C997C7003881A3 /* stem_UTF_8_finnish.h in Headers */,
+				4A0DF74E19C997C7003881A3 /* stem_UTF_8_portuguese.h in Headers */,
+				4A0DF6CB19C9978C003881A3 /* modules.h in Headers */,
+				4A0DF73519C997C7003881A3 /* stem_ISO_8859_1_finnish.h in Headers */,
+				4A99A6F819C9905200FC22D8 /* libstemmer.h in Headers */,
+				4A0DF73319C997C7003881A3 /* stem_ISO_8859_1_dutch.h in Headers */,
+				4A0DF73919C997C7003881A3 /* stem_ISO_8859_1_norwegian.h in Headers */,
+				4A0DF74019C997C7003881A3 /* stem_KOI8_R_russian.h in Headers */,
+				4A0DF74119C997C7003881A3 /* stem_UTF_8_danish.h in Headers */,
+				4A0DF73A19C997C7003881A3 /* stem_ISO_8859_1_porter.h in Headers */,
+				4A0DF73F19C997C7003881A3 /* stem_ISO_8859_2_romanian.h in Headers */,
+				4A0DF74519C997C7003881A3 /* stem_UTF_8_french.h in Headers */,
+				4A0DF74319C997C7003881A3 /* stem_UTF_8_english.h in Headers */,
+				4A0DF75119C997C7003881A3 /* stem_UTF_8_spanish.h in Headers */,
+				4A0DF73419C997C7003881A3 /* stem_ISO_8859_1_english.h in Headers */,
+				4A0DF74919C997C7003881A3 /* stem_UTF_8_italian.h in Headers */,
+				4A0DF73C19C997C7003881A3 /* stem_ISO_8859_1_spanish.h in Headers */,
+				4A99A70019C9909F00FC22D8 /* api.h in Headers */,
+				4A99A70319C990A900FC22D8 /* header.h in Headers */,
+				4A0DF75219C997C7003881A3 /* stem_UTF_8_swedish.h in Headers */,
+				4A0DF73819C997C7003881A3 /* stem_ISO_8859_1_italian.h in Headers */,
+				4A0DF74819C997C7003881A3 /* stem_UTF_8_hungarian.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
+
+/* Begin PBXLegacyTarget section */
+		4A0DF6BF19C9964B003881A3 /* snowball */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 4A0DF6C219C9964B003881A3 /* Build configuration list for PBXLegacyTarget "snowball" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = snowball;
+			dependencies = (
+			);
+			name = snowball;
+			passBuildSettingsInEnvironment = 1;
+			productName = snowball;
+		};
+/* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
 		4A99A6D819C98FEB00FC22D8 /* SnowballStemmer */ = {
@@ -112,10 +437,12 @@
 				4A99A6D519C98FEB00FC22D8 /* Frameworks */,
 				4A99A6D619C98FEB00FC22D8 /* Headers */,
 				4A99A6D719C98FEB00FC22D8 /* Resources */,
+				4A99A79119C9947600FC22D8 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4A0DF6C419C996E6003881A3 /* PBXTargetDependency */,
 			);
 			name = SnowballStemmer;
 			productName = SnowballStemmer;
@@ -133,6 +460,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4A99A79019C9911E00FC22D8 /* PBXTargetDependency */,
 			);
 			name = SnowballStemmerTests;
 			productName = SnowballStemmerTests;
@@ -148,6 +476,9 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = InquisitiveSoftware;
 				TargetAttributes = {
+					4A0DF6BF19C9964B003881A3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
 					4A99A6D819C98FEB00FC22D8 = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -168,6 +499,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4A0DF6BF19C9964B003881A3 /* snowball */,
 				4A99A6D819C98FEB00FC22D8 /* SnowballStemmer */,
 				4A99A6E319C98FEB00FC22D8 /* SnowballStemmerTests */,
 			);
@@ -191,11 +523,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A99A79119C9947600FC22D8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A99A6D419C98FEB00FC22D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0DF70619C997BB003881A3 /* stem_UTF_8_kraaij_pohlmann.c in Sources */,
+				4A0DF6FE19C997BB003881A3 /* stem_UTF_8_dutch.c in Sources */,
+				4A99A6F519C9901100FC22D8 /* NSString+StemWord.m in Sources */,
+				4A0DF6F819C997BB003881A3 /* stem_ISO_8859_1_spanish.c in Sources */,
+				4A0DF70819C997BB003881A3 /* stem_UTF_8_norwegian.c in Sources */,
+				4A0DF70E19C997BB003881A3 /* stem_UTF_8_swedish.c in Sources */,
+				4A99A6FF19C9909F00FC22D8 /* api.c in Sources */,
+				4A0DF6F519C997BB003881A3 /* stem_ISO_8859_1_norwegian.c in Sources */,
+				4A0DF70919C997BB003881A3 /* stem_UTF_8_porter.c in Sources */,
+				4A0DF6FB19C997BB003881A3 /* stem_ISO_8859_2_romanian.c in Sources */,
+				4A0DF70719C997BB003881A3 /* stem_UTF_8_lovins.c in Sources */,
+				4A0DF70B19C997BB003881A3 /* stem_UTF_8_romanian.c in Sources */,
+				4A0DF6CA19C9978C003881A3 /* libstemmer.c in Sources */,
+				4A0DF70519C997BB003881A3 /* stem_UTF_8_italian.c in Sources */,
+				4A0DF70319C997BB003881A3 /* stem_UTF_8_german2.c in Sources */,
+				4A0DF6FF19C997BB003881A3 /* stem_UTF_8_english.c in Sources */,
+				4A0DF70119C997BB003881A3 /* stem_UTF_8_french.c in Sources */,
+				4A0DF6EE19C997BB003881A3 /* stem_ISO_8859_1_danish.c in Sources */,
+				4A0DF6EF19C997BB003881A3 /* stem_ISO_8859_1_dutch.c in Sources */,
+				4A0DF70F19C997BB003881A3 /* stem_UTF_8_turkish.c in Sources */,
+				4A0DF6FD19C997BB003881A3 /* stem_UTF_8_danish.c in Sources */,
+				4A0DF6F019C997BB003881A3 /* stem_ISO_8859_1_english.c in Sources */,
+				4A0DF6F219C997BB003881A3 /* stem_ISO_8859_1_french.c in Sources */,
+				4A0DF6FA19C997BB003881A3 /* stem_ISO_8859_2_hungarian.c in Sources */,
+				4A0DF6F719C997BB003881A3 /* stem_ISO_8859_1_portuguese.c in Sources */,
+				4A0DF6FC19C997BB003881A3 /* stem_KOI8_R_russian.c in Sources */,
+				4A0DF6F619C997BB003881A3 /* stem_ISO_8859_1_porter.c in Sources */,
+				4A0DF70A19C997BB003881A3 /* stem_UTF_8_portuguese.c in Sources */,
+				4A0DF70419C997BB003881A3 /* stem_UTF_8_hungarian.c in Sources */,
+				4A0DF6F919C997BB003881A3 /* stem_ISO_8859_1_swedish.c in Sources */,
+				4A0DF75519C99812003881A3 /* utilities.c in Sources */,
+				4A0DF70D19C997BB003881A3 /* stem_UTF_8_spanish.c in Sources */,
+				4A0DF70219C997BB003881A3 /* stem_UTF_8_german.c in Sources */,
+				4A0DF70C19C997BB003881A3 /* stem_UTF_8_russian.c in Sources */,
+				4A0DF6F419C997BB003881A3 /* stem_ISO_8859_1_italian.c in Sources */,
+				4A0DF6F119C997BB003881A3 /* stem_ISO_8859_1_finnish.c in Sources */,
+				4A0DF6F319C997BB003881A3 /* stem_ISO_8859_1_german.c in Sources */,
+				4A0DF70019C997BB003881A3 /* stem_UTF_8_finnish.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,13 +589,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A99A6E919C98FEB00FC22D8 /* SnowballStemmerTests.m in Sources */,
+				4A0DF75819C9987A003881A3 /* SnowballStemmerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4A0DF6C419C996E6003881A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0DF6BF19C9964B003881A3 /* snowball */;
+			targetProxy = 4A0DF6C319C996E6003881A3 /* PBXContainerItemProxy */;
+		};
+		4A99A79019C9911E00FC22D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A99A6D819C98FEB00FC22D8 /* SnowballStemmer */;
+			targetProxy = 4A99A78F19C9911E00FC22D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		4A0DF6C019C9964B003881A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A0DF6C119C9964B003881A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		4A99A6EA19C98FEB00FC22D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -297,6 +726,7 @@
 		4A99A6ED19C98FEB00FC22D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -306,12 +736,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		4A99A6EE19C98FEB00FC22D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -327,6 +759,7 @@
 		4A99A6F019C98FEB00FC22D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -338,12 +771,15 @@
 				INFOPLIST_FILE = SnowballStemmerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SnowballStemmerTests/SnowballStemmerTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		4A99A6F119C98FEB00FC22D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -351,12 +787,21 @@
 				INFOPLIST_FILE = SnowballStemmerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SnowballStemmerTests/SnowballStemmerTests-Bridging-Header.h";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4A0DF6C219C9964B003881A3 /* Build configuration list for PBXLegacyTarget "snowball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0DF6C019C9964B003881A3 /* Debug */,
+				4A0DF6C119C9964B003881A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		4A99A6D319C98FEB00FC22D8 /* Build configuration list for PBXProject "SnowballStemmer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -373,6 +818,7 @@
 				4A99A6EE19C98FEB00FC22D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A99A6EF19C98FEB00FC22D8 /* Build configuration list for PBXNativeTarget "SnowballStemmerTests" */ = {
 			isa = XCConfigurationList;
@@ -381,6 +827,7 @@
 				4A99A6F119C98FEB00FC22D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
